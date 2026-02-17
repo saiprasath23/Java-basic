@@ -1,0 +1,19 @@
+public class Ball {
+    public static void main(String[] args) {
+
+        String[] bag = {"Red", "Blue", "Red"};
+        int red = 0;
+        int blue = 0;
+        
+        for (int i = 0; i < bag.length; i++) {
+            if (bag[i].equals("Red")) {
+                red++;
+            }
+            else {
+                blue++;
+            } 
+        }
+        System.out.println("Red balls: " + red);
+        System.out.println("Blue balls: " + blue);
+    }
+}
